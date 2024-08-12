@@ -1,0 +1,14 @@
+{
+    "patterns": [
+        {
+            "name": "coverage details",
+            "keywords": ["coverage details", "in patient treatment", "pre post hospitalization", "day care", "domiciliary", "organ donor", "ambulance", "maternity"],
+            "example": "In patient Treatment",
+            "response": {
+                "Coverage": "In patient Treatment",
+                "Details": "For Employee + Spouse + 3 Dependent Children up to 25 years Only In-patient treatment(IPD) Graded Sum Insured of INR 100000+200000+300000+400000+500000",
+                "Sum insured Details": "Upto ₹ 12100000"
+            }
+        }
+    ]
+}

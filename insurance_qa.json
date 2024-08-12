@@ -1,0 +1,139 @@
+{
+    "train": [
+      {
+        "document": "Text of the insurance policy...",
+        "qa_pairs": [
+          {
+            "question": "Create an email summary of this document",
+            "answer": "Policy Number: 0239357627, IC name: CHENNAT, Product name: Group Medicare, Policy Tenure: From 10/04/2023 to 09/04/2024, Overall Sum Insured: ₹12,100,000, Member Details: ..., Premium details: Net Premium: ₹384,087.00, CGST (9%): ₹34,567.83, SGST (9%): ₹34,567.83, Total Gross Premium: ₹453,223.00"
+          },
+          {
+            "question": "Please find the Terms and Conditions",
+            "answer": "Please find the Terms and Conditions attached to the policy."
+          },
+          {
+            "question": "Please find the deductible/Excess",
+            "answer": "Not mentioned in the provided document."
+          },
+          {
+            "question": "Please find clauses warranties",
+            "answer": "Please find attached Clauses and Warranties of the policy."
+          },
+          {
+            "question": "Please find the Name of the Insured and Communication Address",
+            "answer": "Name: JKR ENTERPRISE LIMITED, Address: NEW NO 39/17, BISHOP GARDEN, RAJA ANNAMALATPURAM, CHENNAT CHENNAI - 600028, TAMIL NADU, INDIA, Contact: [Phone/Mobile No] and saranya.m@ttgroupglobal.com"
+          },
+          {
+            "question": "Please find the Hypothecation Details",
+            "answer": "Not mentioned in the provided document."
+          },
+          {
+            "question": "Please find the Intermediary Details",
+            "answer": "Name: PIONEER INSURANCE & REINSURANCE BROKER PVT. LTD., License No.: 0001212000, Contact No.: 7977061118"
+          },
+          {
+            "question": "Provide Demographic report summary or /member details",
+            "answer": "Total Number of Insured Persons: 161, Schedule of Members: Refer to attached annexure."
+          },
+          {
+            "question": "Provide Policy Number and previous policy Number",
+            "answer": "Policy Number: 0239357627, Previous policy number: Not mentioned in the provided document."
+          },
+          {
+            "question": "Please find the Co-insurance Details",
+            "answer": "Not mentioned in the provided document."
+          },
+          {
+            "question": "Please find the premium details with GST",
+            "answer": "Net Premium: ₹384,087.00, CGST (9%): ₹34,567.83, SGST (9%): ₹34,567.83, Total Gross Premium: ₹453,223.00"
+          },
+          {
+            "question": "please find the commission% and brokerage",
+            "answer": "Not mentioned in the provided document."
+          },
+          {
+            "question": "Provide Summary of Insured Details including age band",
+            "answer": "Refer to the document for the age-band distribution of insured persons."
+          },
+          {
+            "question": "Provide summary of Sum insured person",
+            "answer": "Refer to the attached annexure for individual sum insured details."
+          },
+          {
+            "question": "Provide coverage and coverage details and sum insured details",
+            "answer": "In-patient Treatment: Up to ₹12,100,000 (Graded Sum Insured of ₹100,000 + ₹200,000 + ₹300,000 + ₹400,000 + ₹500,000), Pre/Post Hospitalization: Up to ₹12,100,000 (30/60 days), Day Care: Up to 100% of in-patient treatment sum insured, Domiciliary: Up to 100% of in-patient treatment sum insured, Organ Donor Medical Expenses: Up to ₹12,100,000, Ambulance: Up to 1% of SI (maximum ₹2,000 per hospitalization), Maternity: Normal Delivery: Metro ₹50,000, Non-Metro ₹50,000 (first two deliveries), C-Section: Metro ₹50,000, Non-Metro ₹50,000 (first two deliveries), Pre/Post Natal: Up to ₹5,000 within maternity limit, Baby Day One Cover: Covered within family SI, Family Transportation Benefit: Up to ₹5,000"
+          },
+          {
+            "question": "Provide Claims Administrator Details",
+            "answer": "Name: M/S. FAMILY HEALTH PLAN (TPA) LIMITED, Address: GROUND FLOOR, SRINILAYA CYBER-SPAZIO, ROAD NO.2, BANJARA HILLS, HYDERABAD,500034, Contact: Toll Free No: 18004254090, Email: INFO@FHPL.NET, Website: www.fhpl.net"
+          },
+          {
+            "question": "Provide Premium Details / Premium Computation / GST Details",
+            "answer": "See premium details with GST in section 11."
+          },
+          {
+            "question": "Provide GPA( Group Personal Accident) and GPA coverage Details",
+            "answer": "Not mentioned in the provided document."
+          },
+          {
+            "question": "Clauses and Endorsement attached to the policy / Additional Conditions",
+            "answer": "Please find attached to the policy."
+          },
+          {
+            "question": "Policy issuance details and intermediary details/ policyholders details",
+            "answer": "Refer to sections 1 and 7."
+          },
+          {
+            "question": "Provide Details of the previous policy (in case of renewal)",
+            "answer": "Not mentioned in the provided document."
+          },
+          {
+            "question": "Provide Risk Details",
+            "answer": "Total No. of Employees Covered: 79, Total No. of Lives Covered: 161, Basis of Sum Insured: Refer to the attached annexure, Family Covered: Yes, Total Sum Insured: ₹12,100,000"
+          },
+          {
+            "question": "Provide Copayment Details and any special conditions covered",
+            "answer": "Co-pay: No co-pay on all claims., Special Conditions: Refer to attached policy document for details."
+          },
+          {
+            "question": "Provide Notice of communication to be given in respect of claim",
+            "answer": "For Policy Servicing and Complaints: 24X7 Toll Free: 1800-266-7780, Email: customersupport@tataaig.com, Senior Citizen Line: 1800 22 9966, For Claims: Contact TPA: Toll Free: 18004254090, Email: INFO@FHPL.NET"
+          },
+          {
+            "question": "Provide Agent/Broker Details",
+            "answer": "Refer to section 7."
+          },
+          {
+            "question": "Provide TPA Details",
+            "answer": "Refer to section 16."
+          },
+          {
+            "question": "Provide coverages / Non coverages details",
+            "answer": "Refer to the document for coverage details and section 15 for a summary."
+          },
+          {
+            "question": "Provide Exclusion details",
+            "answer": "Please find exclusion details in the policy document."
+          },
+          {
+            "question": "Provide day care procedure details",
+            "answer": "Please find details of day care procedures in the policy document."
+          },
+          {
+            "question": "Provide maternity basic details , advance cover details",
+            "answer": "Refer to section 15 for maternity details., Advance cover and corporate buffer details are not mentioned in the document."
+          },
+          {
+            "question": "Provide cost containment details",
+            "answer": "Not mentioned in the provided document."
+          },
+          {
+            "question": "Provide claim analytics details",
+            "answer": "Not mentioned in the provided document."
+          }
+        ]
+      }
+    ],
+    "validation": []
+  }
+  

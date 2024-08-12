@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Analyzer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PDF Analyzer</h1>
+        <div class="input-group">
+            <input type="file" id="file">
+            <textarea id="question" placeholder="Enter your question here"></textarea>
+        </div>
+        <button id="analyze">Analyze</button>
+    
+        <!-- Loader, initially hidden -->
+        <div id="loader" class="hidden"></div>
+    
+        <!-- Area to display the answer -->
+        <div id="answer" class="hidden"></div>
+    </div>
+    
+    <script>
+        document.getElementById("analyze").addEventListener("click", function() {
+            // Show the loader and hide the answer
+            document.getElementById("loader").classList.remove("hidden");
+            document.getElementById("answer").classList.add("hidden");
+    
+            // Create a FormData object
+            let formData = new FormData();
+            formData.append("file", document.getElementById("file").files[0]);
+            formData.append("question", document.getElementById("question").value);
+    
+            // Send the data to the server
+            fetch('/analyze', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Hide the loader and display the answer
+                document.getElementById("loader").classList.add("hidden");
+                document.getElementById("answer").classList.remove("hidden");
+                document.getElementById("answer").textContent = data.answer;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById("loader").classList.add("hidden");
+                document.getElementById("answer").classList.remove("hidden");
+                document.getElementById("answer").textContent = "An error occurred.";
+            });
+        });
+    </script>
+</body>
+</html>

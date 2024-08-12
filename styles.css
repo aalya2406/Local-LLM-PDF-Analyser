@@ -1,0 +1,137 @@
+/* Basic reset for better cross-browser consistency */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Container for the form and content */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;  /* Increased width for a larger form */
+    width: 100%;
+}
+
+/* Title styling */
+h1 {
+    font-size: 24px;
+    margin-bottom: 30px;  /* Space below the title */
+}
+
+/* Flexbox layout for file input and prompt */
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+/* Styling for file input */
+input[type="file"] {
+    flex: 1;
+}
+
+/* Styling for input text area */
+textarea {
+    width: calc(100% - 10px);  /* Occupy full width minus gap */
+    height: 50px;  /* Adjusted height */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    resize: none;
+}
+
+/* Button styling, now below the input fields */
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: #6f42c1;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;  /* Added space between inputs and button */
+    width: 100%;  /* Full width button */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #5a31a6;
+}
+
+/* Loader animation */
+#loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #6f42c1;
+    width: 80px;
+    height: 80px;
+    animation: spin 1.5s linear infinite;
+    margin: 20px auto;
+}
+
+/* Keyframes for the loader animation */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Hide the loader by default */
+.hidden {
+    display: none;
+}
+
+/* Styling for the answer display box */
+#answer {
+    margin-top: 25px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    .input-group {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    textarea {
+        height: 100px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    #answer {
+        font-size: 14px;
+    }
+}
