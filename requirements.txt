@@ -3,4 +3,5 @@ PyPDF2
 transformers
 torch
 PyMuPDF
+pdfplumber
 
